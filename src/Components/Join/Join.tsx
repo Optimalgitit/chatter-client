@@ -31,7 +31,7 @@ export default function Join() {
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}
         >
-          <button className={"button mt-20"} type="submit">
+          <button className={"button mt-20"} data-testid='button-submit' type="submit">
             Join
           </button>
         </Link>

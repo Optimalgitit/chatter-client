@@ -22,7 +22,7 @@ export default function Input({
         placeholder="Type a message..."
         className="input"
       />
-      <button className="sendButton" onClick={event => sendMessage(event)}>Send</button>
+      <button className="sendButton" data-testid="send-message" onClick={event => sendMessage(event)}>Send</button>
     </form>
   );
 }
