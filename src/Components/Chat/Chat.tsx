@@ -24,7 +24,8 @@ function Chat({ location }: { location: any }) {
   const [room, setRoom] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [messages, setMessages] = useState<message[]>([]);
-  let ENDPOINT = process.env.API_URL || "http://localhost:5000";
+  let ENDPOINT =
+    process.env.API_URL || "https://chatter-serverside.herokuapp.com/";
 
   // Joining
 
