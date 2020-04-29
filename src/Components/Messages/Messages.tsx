@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import Message from "./Message/Message";
 import "./Messages.css";
-const ScrollToBottom = require("react-scroll-to-bottom");
 
 interface user {
   id: string;
